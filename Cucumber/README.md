@@ -1,4 +1,4 @@
-# Testing $$Moodle$$ using Cucumber
+# Testing $$*Moodle*$$ using Cucumber
 This directory contains the cucumber files for testing the $$*TODO* module name$$ module of the $$*TODO* software name$$ application.
 
 ## Running the tests
