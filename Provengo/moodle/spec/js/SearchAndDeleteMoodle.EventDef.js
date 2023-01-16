@@ -36,6 +36,6 @@ defineEvent(SeleniumSession, "search_admin", function(session, e) {
 defineEvent(SeleniumSession, "delete_message", function(session, e) {
     session.click("/html/body/div[3]/div[4]/div/div[3]/div/section/div/article/div/div/div/div[2]/div[2]/div/a[3]")//delete button
     session.click("/html/body/div[3]/div[4]/div/div[3]/div/section/div[2]/div/div/div[3]/div/div[1]/form/button")//continue button
-//    session.click("/html/body/div[3]/div[4]/div/div[3]/div/section/div[2]/div/div/div[3]/div/div[1]/form/button")
+
 
 })
