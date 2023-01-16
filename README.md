@@ -4,28 +4,25 @@ This is a repository for assignment 3 of the Software Quality Engineering course
 ## Assignment Description
 In this assignment, we tested an open-source software called Moodle(https://address-of-the-project.com).
 
-$$*TODO* Add some general description about the software$$
+the software tests moodle site. while student search comment in forum, the teacher delete the exactly message. 
 
 ## Installation
-$$*TODO* Write instructions on how to install the software and prepare the testing environment$$
+(https://youtu.be/nd4dytem4DA)
+follow up this video to install moodle on your PC. 
 
 ## What we tested
-$$*TODO* Add a description of the module and the user stories that you chose to test.
-For example, in the case of the Moodle example, you can write something like this:
 
-We tested the quiz module that allows for creating and taking quizzes. We chose to test the following user stories: 
+We tested the forum module that allows for comments. We chose to test the following user stories: 
 
-*User story:* A teacher adds a new quiz to the course with two yes/no questions
+*User story:* A teacher delete a comment in forum
 
-*Preconditions:* There is a course with a teacher
+*Preconditions:* There is a course with a teacher, there is a comment in forum which we want to delete
 
-*Expected outcome:* The quiz is added to the course.
+*Expected outcome:* the comment deleted from the forum
+*User story:* A students search a comment in forum
 
-*User story:* A students attempts a quiz and answers correctly.
-
-*Preconditions:* There is a course with a quiz with two yes/no questions and the quiz grade is calculated automatically and the grade is visible to the students upon submission.
-
-*Expected outcome:* The student receives 100.
+*Preconditions:* There student is in role in the course. 
+*Expected outcome:* The student find the wishful comment
 $$
 
 ## How we tested
@@ -38,15 +35,5 @@ Each of the testing methods is elaborated in its own directory.
 ## Results
 Update all README.md files (except for d-e, see Section 1). Specifically, replace all $$*TODO*…$$ according to the instructions inside the $$.
 
-## Detected Bugs
-We detected the following bugs:
 
-1. Bug 1: 
-   1. General description: ...
-   2. Steps to reproduce: ...
-   3. Expected result: ...
-   4. Actual result: ...
-   5. Link to the bug report: (you are encouraged to report the bug to the developers of the software)
-2. Bug 2: ...
-
-$$*TODO* if you did not detect the bug, you can delete this section$$  
+ 
